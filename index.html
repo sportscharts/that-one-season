@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>That One Season</title>
+<meta property="og:title" content="That One Season">
+<meta property="og:description" content="Overlooked and underrated single seasons from MLB and NBA history.">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--ink:#0f0f0f;--ink2:#444;--ink3:#888;--paper:#f5f2eb;--paper2:#ece9e1;--paper3:#e0ddd5;--gold:#c8860a;--gold-light:#e8a838}
+body{font-family:'DM Sans',sans-serif;background:var(--paper);color:var(--ink);min-height:100vh;padding:0 0 80px}
+
+/* ── header ── */
+.site-header{padding:32px 40px 24px;border-bottom:1.5px solid var(--ink);display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
+.site-title{font-family:'Bebas Neue',sans-serif;font-size:48px;letter-spacing:.04em;line-height:1}
+.site-title span{color:var(--gold)}
+.site-desc{font-size:13px;color:var(--ink3);max-width:420px;line-height:1.6;margin-top:2px}
+.header-right{margin-left:auto;display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.card-count{font-family:'DM Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3)}
+
+/* ── filters ── */
+.filter-bar{padding:20px 40px;border-bottom:1px solid var(--paper3);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.filter-label{font-size:11px;color:var(--ink3);letter-spacing:.06em;text-transform:uppercase;margin-right:4px}
+.filter-btn{font-family:'DM Sans',sans-serif;font-size:12px;padding:6px 14px;border-radius:20px;border:1px solid var(--paper3);background:var(--paper);color:var(--ink2);cursor:pointer;transition:all .15s}
+.filter-btn:hover{border-color:var(--gold);color:var(--ink)}
+.filter-btn.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+.search-wrap{margin-left:auto}
+.search-wrap input{font-family:'DM Sans',sans-serif;font-size:13px;color:var(--ink);background:#fff;border:1px solid var(--paper3);border-radius:8px;padding:7px 12px;outline:none;width:220px;transition:border-color .15s}
+.search-wrap input:focus{border-color:var(--gold)}
+
+/* ── grid ── */
+.grid-wrap{padding:32px 40px}
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px}
+.empty-state{grid-column:1/-1;text-align:center;padding:60px 20px;color:var(--ink3);font-size:14px;font-style:italic}
+
+/* ── card ── */
+.card{border-radius:14px;overflow:hidden;box-shadow:0 16px 40px rgba(0,0,0,.18),0 4px 10px rgba(0,0,0,.08);transition:transform .2s,box-shadow .2s;cursor:default}
+.card:hover{transform:translateY(-3px);box-shadow:0 24px 60px rgba(0,0,0,.22),0 6px 14px rgba(0,0,0,.1)}
+.card-header{padding:22px 22px 18px;position:relative}
+.card-header::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold-light),transparent)}
+.card-badge{display:inline-block;font-family:'DM Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;border-radius:3px;margin-bottom:12px}
+.card-player{font-family:'Bebas Neue',sans-serif;font-size:32px;letter-spacing:.04em;line-height:1;margin-bottom:5px}
+.card-meta{font-size:13px;font-weight:300;letter-spacing:.04em}
+.tw .card-badge{background:rgba(255,255,255,.12);color:rgba(255,255,255,.8)}
+.tw .card-player{color:#fff}.tw .card-meta{color:rgba(255,255,255,.5)}
+.tw .eyebrow{color:rgba(255,255,255,.35)}.tw .stat-val{color:#fff}.tw .stat-lbl{color:rgba(255,255,255,.35)}
+.tw .stat-box{background:rgba(255,255,255,.06);border:.5px solid rgba(255,255,255,.08)}
+.tw .stat-box.hi{background:rgba(200,134,10,.18);border-color:rgba(200,134,10,.35)}
+.tw .card-rule{background:rgba(255,255,255,.08)}.tw .ctx-text{color:rgba(255,255,255,.6)}
+.tw .tag{border:.5px solid rgba(255,255,255,.18);color:rgba(255,255,255,.45)}
+.tw .card-footer{border-top:.5px solid rgba(255,255,255,.07)}.tw .brand{color:rgba(255,255,255,.4)}.tw .src-note{color:rgba(255,255,255,.2)}
+.tb .card-badge{background:rgba(0,0,0,.1);color:rgba(0,0,0,.7)}
+.tb .card-player{color:#000}.tb .card-meta{color:rgba(0,0,0,.5)}
+.tb .eyebrow{color:rgba(0,0,0,.4)}.tb .stat-val{color:#000}.tb .stat-lbl{color:rgba(0,0,0,.4)}
+.tb .stat-box{background:rgba(0,0,0,.05);border:.5px solid rgba(0,0,0,.08)}
+.tb .stat-box.hi{background:rgba(200,134,10,.2);border-color:rgba(200,134,10,.4)}
+.tb .card-rule{background:rgba(0,0,0,.1)}.tb .ctx-text{color:rgba(0,0,0,.65)}
+.tb .tag{border:.5px solid rgba(0,0,0,.18);color:rgba(0,0,0,.5)}
+.tb .card-footer{border-top:.5px solid rgba(0,0,0,.08)}.tb .brand{color:rgba(0,0,0,.4)}.tb .src-note{color:rgba(0,0,0,.25)}
+.stat-box.hi .stat-val{color:var(--gold-light)!important}
+.card-body{}
+.stats-area{padding:18px 22px 0}
+.eyebrow{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:10px}
+.stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-bottom:18px}
+.stat-box{border-radius:8px;padding:10px 8px;text-align:center}
+.stat-val{font-family:'Bebas Neue',sans-serif;font-size:26px;line-height:1;letter-spacing:.02em}
+.stat-lbl{font-family:'DM Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;margin-top:3px}
+.card-rule{height:.5px;margin:0 22px}
+.ctx-area{padding:14px 22px 16px}
+.ctx-text{font-size:12px;line-height:1.7;font-weight:300}
+.tags-area{display:flex;flex-wrap:wrap;gap:5px;padding:0 22px 18px}
+.tag{font-size:9px;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:20px}
+.card-footer{padding:10px 22px 14px;display:flex;align-items:center;justify-content:space-between}
+.brand{font-family:'Bebas Neue',sans-serif;font-size:15px;letter-spacing:.08em}
+.brand em{color:var(--gold);font-style:normal}
+.src-note{font-family:'DM Mono',monospace;font-size:8px;letter-spacing:.05em}
+
+/* ── loading/error ── */
+.status{text-align:center;padding:80px 20px;color:var(--ink3);font-size:14px}
+.status-icon{font-size:32px;margin-bottom:12px}
+
+@media(max-width:600px){
+  .site-header{padding:24px 20px 18px}
+  .site-title{font-size:36px}
+  .filter-bar{padding:16px 20px}
+  .search-wrap input{width:100%}
+  .search-wrap{margin-left:0;width:100%}
+  .grid-wrap{padding:24px 20px}
+  .cards-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div>
+    <div class="site-title">That One <span>Season</span></div>
+    <div class="site-desc">Overlooked and underrated single seasons from MLB and NBA history.</div>
+  </div>
+  <div class="header-right">
+    <div class="card-count" id="card-count"></div>
+  </div>
+</header>
+
+<div class="filter-bar">
+  <span class="filter-label">Filter</span>
+  <button class="filter-btn active" data-filter="all" onclick="setFilter('all',this)">All</button>
+  <button class="filter-btn" data-filter="MLB" onclick="setFilter('MLB',this)">MLB</button>
+  <button class="filter-btn" data-filter="NBA" onclick="setFilter('NBA',this)">NBA</button>
+  <div class="search-wrap">
+    <input type="text" id="search" placeholder="Search player, team, year…" oninput="renderCards()">
+  </div>
+</div>
+
+<div class="grid-wrap">
+  <div id="status" class="status"><div class="status-icon">⏳</div>Loading cards…</div>
+  <div class="cards-grid" id="cards-grid" style="display:none;"></div>
+</div>
+
+<script>
+let allCards=[];
+let activeFilter='all';
+
+async function loadCards(){
+  try{
+    const res=await fetch('cards.json?v='+Date.now());
+    if(!res.ok)throw new Error('not found');
+    allCards=await res.json();
+    document.getElementById('status').style.display='none';
+    document.getElementById('cards-grid').style.display='';
+    renderCards();
+  }catch(e){
+    document.getElementById('status').innerHTML='<div class="status-icon">📭</div>No cards found. Make sure <code>cards.json</code> is in the same folder as this file.';
+  }
+}
+
+function setFilter(f,btn){
+  activeFilter=f;
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderCards();
+}
+
+function renderCards(){
+  const q=(document.getElementById('search').value||'').toLowerCase();
+  let cards=allCards;
+
+  if(activeFilter!=='all'){
+    cards=cards.filter(c=>(c.badge||'').toUpperCase().includes(activeFilter));
+  }
+  if(q){
+    cards=cards.filter(c=>{
+      const hay=[c.name,c.badge,c.meta,c.context,c.tags].join(' ').toLowerCase();
+      return hay.includes(q);
+    });
+  }
+
+  const count=document.getElementById('card-count');
+  count.textContent=`${cards.length} card${cards.length!==1?'s':''}`;
+
+  const grid=document.getElementById('cards-grid');
+  if(!cards.length){
+    grid.innerHTML='<div class="empty-state">No cards match your search.</div>';
+    return;
+  }
+
+  grid.innerHTML='';
+  cards.forEach(d=>grid.appendChild(buildCard(d)));
+}
+
+function buildCard(d){
+  const tc=d.textColor==='black'?'tb':'tw';
+  const wrap=document.createElement('div');
+  wrap.className='card '+tc;
+
+  // stats html
+  const statsHtml=(d.stats||[]).filter(s=>s.v||s.l).map(s=>
+    `<div class="stat-box${s.hi?' hi':''}"><div class="stat-val">${s.v||'—'}</div><div class="stat-lbl">${s.l}</div></div>`
+  ).join('');
+
+  // tags html
+  const tagsHtml=(d.tags||'').split(',').map(t=>t.trim()).filter(Boolean).map(t=>
+    `<span class="tag">${t}</span>`
+  ).join('');
+
+  // context section (optional)
+  const ctxHtml=d.showContext!==false && d.context
+    ? `<div class="card-rule"></div>
+       <div class="ctx-area">
+         <div class="eyebrow">${d.contextLabel||'Why it matters'}</div>
+         <div class="ctx-text">${d.context}</div>
+       </div>`
+    : '';
+
+  wrap.innerHTML=`
+    <div class="card-header" style="background:${d.hc||'#111827'};">
+      <div class="card-badge">${d.badge||''}</div>
+      <div class="card-player">${d.name||''}</div>
+      <div class="card-meta">${d.meta||''}</div>
+    </div>
+    <div class="card-body" style="background:${d.bc||'#1c1c1e'};">
+      <div class="stats-area">
+        <div class="eyebrow">${d.statsLabel||'Season stats'}</div>
+        <div class="stats-grid">${statsHtml}</div>
+      </div>
+      ${ctxHtml}
+      <div class="tags-area">${tagsHtml}</div>
+      <div class="card-footer">
+        <div class="brand">That One <em>Season</em></div>
+        <div class="src-note">${d.src||''}</div>
+      </div>
+    </div>`;
+
+  return wrap;
+}
+
+loadCards();
+</script>
+</body>
+</html>
