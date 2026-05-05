@@ -1,6 +1,210 @@
 	
 0	
-name	"Billy Hamilton"
+name	"Billy Hamilton"[
+  {
+    "name": "Billy Hamilton",
+    "badge": "MLB · 1894",
+    "meta": "OF · Philadelphia Phillies · Age 28",
+    "hc": "#E81828",
+    "bc": "#fffff0",
+    "textColor": "black",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "198",
+        "l": "Runs",
+        "hi": false
+      },
+      {
+        "v": "225",
+        "l": "Hits",
+        "hi": false
+      },
+      {
+        "v": "100",
+        "l": "SBs",
+        "hi": false
+      },
+      {
+        "v": ".403",
+        "l": "AVG",
+        "hi": false
+      },
+      {
+        "v": ".521",
+        "l": "OBP",
+        "hi": false
+      },
+      {
+        "v": "8.2",
+        "l": "WAR",
+        "hi": false
+      }
+    ],
+    "context": "\"Sliding Billy\" Hamilton scored 198 runs (or 196 or 192, depending who you ask) in 132 games in 1894, an MLB record that still stands today. Babe Ruth got closest with 177 runs in 1921. Hamilton also hit .403 and stole 100 bases, including 7 in a single game, another MLB record. His Phillies finished third.",
+    "tags": "All Star",
+    "src": "Source: Baseball Reference",
+    "savedAt": "5/4/2026",
+    "contextLabel": "Context",
+    "showContext": true,
+    "aclLabel": "Accolades",
+    "showAcl": false,
+    "hdColor": "white",
+    "bdColor": "black"
+  },
+  {
+    "name": "Todd Hundley",
+    "badge": "MLB · 1996",
+    "meta": "C · New York Mets · 27",
+    "hc": "#FD5A1E",
+    "bc": "#005A9C",
+    "textColor": "white",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "41",
+        "l": "HR",
+        "hi": false
+      },
+      {
+        "v": "112",
+        "l": "RBI",
+        "hi": false
+      },
+      {
+        "v": ".906",
+        "l": "OPS",
+        "hi": false
+      },
+      {
+        "v": "32",
+        "l": "2B",
+        "hi": false
+      },
+      {
+        "v": "85",
+        "l": "R",
+        "hi": false
+      },
+      {
+        "v": ".259",
+        "l": "BA",
+        "hi": false
+      }
+    ],
+    "context": "",
+    "tags": "All Star",
+    "src": "Source: Baseball Reference",
+    "savedAt": "5/4/2026",
+    "contextLabel": "Context",
+    "showContext": false,
+    "aclLabel": "Accolades",
+    "showAcl": true,
+    "hdColor": "white",
+    "bdColor": "white"
+  },
+  {
+    "name": "Paul Lo Duca",
+    "badge": "MLB · 2001",
+    "meta": "C · Los Angeles Dodgers · Age 29",
+    "hc": "#005A9C",
+    "bc": "#fffff0",
+    "hdColor": "white",
+    "bdColor": "black",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "25",
+        "l": "HR",
+        "hi": false
+      },
+      {
+        "v": "90",
+        "l": "RBI",
+        "hi": false
+      },
+      {
+        "v": ".320",
+        "l": "AVG",
+        "hi": false
+      },
+      {
+        "v": ".917",
+        "l": "OPS",
+        "hi": false
+      },
+      {
+        "v": "1.3",
+        "l": "BB/K",
+        "hi": false
+      },
+      {
+        "v": "4.6",
+        "l": "WAR",
+        "hi": false
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": true,
+    "context": "",
+    "aclLabel": "Accolades",
+    "showAcl": false,
+    "tags": "NL MVP - 19th",
+    "src": "Baseball Reference",
+    "savedAt": "5/5/2026"
+  },
+  {
+    "name": "Rich Aurilia",
+    "badge": "MLB · 2001",
+    "meta": "SS · San Francisco Giants · Age 29",
+    "hc": "#FF5910",
+    "bc": "#0a0a0f",
+    "textColor": "white",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "37",
+        "l": "HR",
+        "hi": false
+      },
+      {
+        "v": "206",
+        "l": "Hits",
+        "hi": false
+      },
+      {
+        "v": "114",
+        "l": "Runs",
+        "hi": false
+      },
+      {
+        "v": ".324",
+        "l": "AVG",
+        "hi": false
+      },
+      {
+        "v": ".941",
+        "l": "OPS",
+        "hi": false
+      },
+      {
+        "v": "6.7",
+        "l": "WAR",
+        "hi": false
+      }
+    ],
+    "context": "Only two shortstops in MLB history have hit 35+ HRs, 200+ hits, and scored 100+ runs in the same season: Alex Rodriguez and Rich Aurilia. Aurilia exploded for career highs in nearly every major hitting category in 2001, accumulating over a third of his career WAR in one season. He was one of three Giants that season to win Silver Sluggers, joining Jeff Kent and Barry Bonds, who overshadowed Aurilia just a tad with 73 HRs of his own.",
+    "tags": "All Star, Silver Slugger, ",
+    "src": "Source: Baseball Reference",
+    "savedAt": "5/5/2026",
+    "contextLabel": "Context",
+    "showContext": true,
+    "aclLabel": "Accolades",
+    "showAcl": true,
+    "hdColor": "white",
+    "bdColor": "white"
+  }
+]
 badge	"MLB · 1894"
 meta	"OF · Philadelphia Phillies · Age 28"
 hc	"#E81828"
