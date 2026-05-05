@@ -1,48 +1,172 @@
-[
-  {
-    "name": "Bob McAdoo",
-    "badge": "NBA · 1974–75",
-    "meta": "C/PF · Buffalo Braves · Age 23",
-    "hc": "#0c2240",
-    "bc": "#111827",
-    "textColor": "white",
-    "statsLabel": "Season averages",
-    "stats": [
-      {"v": "34.5", "l": "PPG", "hi": true},
-      {"v": "14.1", "l": "RPG", "hi": false},
-      {"v": "2.1",  "l": "BPG", "hi": false},
-      {"v": ".512", "l": "FG%", "hi": false},
-      {"v": "49",   "l": "Team W", "hi": false},
-      {"v": "2,831","l": "Total PTS", "hi": false}
-    ],
-    "contextLabel": "Why it matters",
-    "showContext": true,
-    "context": "A 6'9\" big man with a jumper, averaging 34.5 points in 1975 — on a team in Buffalo. Only MJ (twice) has scored at a higher clip since. McAdoo led the league in points, rebounds, and minutes that year and won MVP. Almost nobody talks about it.",
-    "tags": "League MVP, 3× scoring champ, All-NBA First Team, Buffalo Braves, Hall of Famer",
-    "src": "Basketball Reference",
-    "savedAt": "5/3/2026"
-  },
-  {
-    "name": "Willie Mays",
-    "badge": "MLB · 1954",
-    "meta": "CF · New York Giants · Age 23",
-    "hc": "#27251F",
-    "bc": "#1c1c1e",
-    "textColor": "white",
-    "statsLabel": "Season stats",
-    "stats": [
-      {"v": ".345", "l": "AVG", "hi": true},
-      {"v": "41",   "l": "HR",  "hi": false},
-      {"v": "110",  "l": "RBI", "hi": false},
-      {"v": "13",   "l": "3B",  "hi": false},
-      {"v": "8",    "l": "OF Ast", "hi": false},
-      {"v": "9.8",  "l": "WAR", "hi": false}
-    ],
-    "contextLabel": "Why it matters",
-    "showContext": true,
-    "context": "The year Mays made \"The Catch\" — a season so complete it's often overshadowed by the World Series moment itself. He led the NL in batting average AND slugging while playing center field at a level no one matched for a decade.",
-    "tags": "NL MVP, NL batting title, WS champion, Gold Glove era",
-    "src": "Baseball Reference",
-    "savedAt": "5/3/2026"
-  }
-]
+	
+0	
+name	"Billy Hamilton"
+badge	"MLB · 1894"
+meta	"OF · Philadelphia Phillies · Age 28"
+hc	"#E81828"
+bc	"#fffff0"
+textColor	"black"
+statsLabel	"Season stats"
+stats	
+0	
+v	"198"
+l	"Runs"
+hi	false
+1	
+v	"225"
+l	"Hits"
+hi	false
+2	
+v	"100"
+l	"SBs"
+hi	false
+3	
+v	".403"
+l	"AVG"
+hi	false
+4	
+v	".521"
+l	"OBP"
+hi	false
+5	
+v	"8.2"
+l	"WAR"
+hi	false
+context	'"Sliding Billy" Hamilton scored 198 runs (or 196 or 192, depending who you ask) in 132 games in 1894, an MLB record that still stands today. Babe Ruth got closest with 177 runs in 1921. Hamilton also hit .403 and stole 100 bases, including 7 in a single game, another MLB record. His Phillies finished third.'
+tags	"All Star"
+src	"Source: Baseball Reference"
+savedAt	"5/4/2026"
+contextLabel	"Context"
+showContext	true
+aclLabel	"Accolades"
+showAcl	false
+hdColor	"white"
+bdColor	"black"
+1	
+name	"Todd Hundley"
+badge	"MLB · 1996"
+meta	"C · New York Mets · 27"
+hc	"#FD5A1E"
+bc	"#005A9C"
+textColor	"white"
+statsLabel	"Season stats"
+stats	
+0	
+v	"41"
+l	"HR"
+hi	false
+1	
+v	"112"
+l	"RBI"
+hi	false
+2	
+v	".906"
+l	"OPS"
+hi	false
+3	
+v	"32"
+l	"2B"
+hi	false
+4	
+v	"85"
+l	"R"
+hi	false
+5	
+v	".259"
+l	"BA"
+hi	false
+context	""
+tags	"All Star"
+src	"Source: Baseball Reference"
+savedAt	"5/4/2026"
+contextLabel	"Context"
+showContext	false
+aclLabel	"Accolades"
+showAcl	true
+hdColor	"white"
+bdColor	"white"
+2	
+name	"Paul Lo Duca"
+badge	"MLB · 2001"
+meta	"C · Los Angeles Dodgers · Age 29"
+hc	"#005A9C"
+bc	"#fffff0"
+hdColor	"white"
+bdColor	"black"
+statsLabel	"Season stats"
+stats	
+0	
+v	"25"
+l	"HR"
+hi	false
+1	
+v	"90"
+l	"RBI"
+hi	false
+2	
+v	".320"
+l	"AVG"
+hi	false
+3	
+v	".917"
+l	"OPS"
+hi	false
+4	
+v	"1.3"
+l	"BB/K"
+hi	false
+5	
+v	"4.6"
+l	"WAR"
+hi	false
+contextLabel	"Why it matters"
+showContext	true
+context	""
+aclLabel	"Accolades"
+showAcl	false
+tags	"NL MVP - 19th"
+src	"Baseball Reference"
+savedAt	"5/5/2026"
+3	
+name	"Rich Aurilia"
+badge	"MLB · 2001"
+meta	"SS · San Francisco Giants · Age 29"
+hc	"#FF5910"
+bc	"#0a0a0f"
+textColor	"white"
+statsLabel	"Season stats"
+stats	
+0	
+v	"37"
+l	"HR"
+hi	false
+1	
+v	"206"
+l	"Hits"
+hi	false
+2	
+v	"114"
+l	"Runs"
+hi	false
+3	
+v	".324"
+l	"AVG"
+hi	false
+4	
+v	".941"
+l	"OPS"
+hi	false
+5	
+v	"6.7"
+l	"WAR"
+hi	false
+context	"Only two shortstops in MLB history have hit 35+ HRs, 200+ hits, and scored 100+ runs in the same season: Alex Rodriguez and Rich Aurilia. Aurilia exploded for career highs in nearly every major hitting category in 2001, accumulating over a third of his career WAR in one season. He was one of three Giants that season to win Silver Sluggers, joining Jeff Kent and Barry Bonds, who overshadowed Aurilia just a tad with 73 HRs of his own."
+tags	"All Star, Silver Slugger, "
+src	"Source: Baseball Reference"
+savedAt	"5/5/2026"
+contextLabel	"Context"
+showContext	true
+aclLabel	"Accolades"
+showAcl	true
+hdColor	"white"
+bdColor	"white"
