@@ -60,6 +60,36 @@ body{font-family:'DM Sans',sans-serif;background:var(--paper);color:var(--ink);m
 .tb .tag{border:.5px solid rgba(0,0,0,.18);color:rgba(0,0,0,.5)}
 .tb .card-footer{border-top:.5px solid rgba(0,0,0,.08)}.tb .brand{color:rgba(0,0,0,.4)}.tb .src-note{color:rgba(0,0,0,.25)}
 .stat-box.hi .stat-val{color:var(--gold-light)!important}
+/* header text */
+.hd-white .card-badge{background:rgba(255,255,255,.18);color:rgba(255,255,255,.9)}
+.hd-white .card-player{color:#fff}
+.hd-white .card-meta{color:rgba(255,255,255,.75)}
+.hd-black .card-badge{background:rgba(0,0,0,.1);color:rgba(0,0,0,.7)}
+.hd-black .card-player{color:#000}
+.hd-black .card-meta{color:rgba(0,0,0,.5)}
+/* body text */
+.bd-white .eyebrow,.bd-white .ctx-eyebrow{color:rgba(255,255,255,.6);font-weight:500}
+.bd-white .stat-val{color:#fff}
+.bd-white .stat-lbl{color:rgba(255,255,255,.5)}
+.bd-white .stat-box{background:rgba(255,255,255,.06);border:.5px solid rgba(255,255,255,.08)}
+.bd-white .stat-box.hi{background:rgba(200,134,10,.18);border-color:rgba(200,134,10,.35)}
+.bd-white .card-rule{background:rgba(255,255,255,.08)}
+.bd-white .ctx-text{color:rgba(255,255,255,.6)}
+.bd-white .tag{border:.5px solid rgba(255,255,255,.35);color:rgba(255,255,255,.8);background:rgba(255,255,255,.08)}
+.bd-white .card-footer{border-top:.5px solid rgba(255,255,255,.07)}
+.bd-white .brand{color:rgba(255,255,255,.4)}
+.bd-white .src-note{color:rgba(255,255,255,.2)}
+.bd-black .eyebrow,.bd-black .ctx-eyebrow{color:rgba(0,0,0,.55);font-weight:500}
+.bd-black .stat-val{color:#000}
+.bd-black .stat-lbl{color:rgba(0,0,0,.4)}
+.bd-black .stat-box{background:rgba(0,0,0,.05);border:.5px solid rgba(0,0,0,.08)}
+.bd-black .stat-box.hi{background:rgba(200,134,10,.2);border-color:rgba(200,134,10,.4)}
+.bd-black .card-rule{background:rgba(0,0,0,.1)}
+.bd-black .ctx-text{color:rgba(0,0,0,.65)}
+.bd-black .tag{border:.5px solid rgba(0,0,0,.3);color:rgba(0,0,0,.7);background:rgba(0,0,0,.05)}
+.bd-black .card-footer{border-top:.5px solid rgba(0,0,0,.08)}
+.bd-black .brand{color:rgba(0,0,0,.4)}
+.bd-black .src-note{color:rgba(0,0,0,.25)}
 .card-body{}
 .stats-area{padding:18px 22px 0}
 .eyebrow{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:10px}
@@ -171,7 +201,9 @@ function renderCards(){
 }
 
 function buildCard(d){
-  const tc=d.textColor==='black'?'tb':'tw';
+  const hdC = d.hdColor || d.textColor || 'white';
+  const bdC = d.bdColor || d.textColor || 'white';
+  const tc = hdC === 'black' ? 'tb' : 'tw';
   const wrap=document.createElement('div');
   wrap.className='card '+tc;
 
@@ -195,12 +227,12 @@ function buildCard(d){
     : '';
 
   wrap.innerHTML=`
-    <div class="card-header" style="background:${d.hc||'#111827'};">
+    <div class="card-header hd-${hdC}" style="background:${d.hc||'#111827'};">
       <div class="card-badge">${d.badge||''}</div>
       <div class="card-player">${d.name||''}</div>
       <div class="card-meta">${d.meta||''}</div>
     </div>
-    <div class="card-body" style="background:${d.bc||'#1c1c1e'};">
+    <div class="card-body bd-${bdC}" style="background:${d.bc||'#1c1c1e'};">
       <div class="stats-area">
         <div class="eyebrow">${d.statsLabel||'Season stats'}</div>
         <div class="stats-grid">${statsHtml}</div>
