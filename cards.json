@@ -409,5 +409,58 @@
     "c1ctxLabel": "",
     "c1ctx": "",
     "showC1Ctx": false
+  },
+  {
+    "name": "Dante Bichette",
+    "badge": "MLB · 1999",
+    "meta": "LF · Colorado Rockies · 1999",
+    "hc": "#1e1b4b",
+    "bc": "#A0AAB2",
+    "hdColor": "white",
+    "bdColor": "white",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "34",
+        "l": "HR",
+        "hi": false
+      },
+      {
+        "v": "133",
+        "l": "RBI",
+        "hi": false
+      },
+      {
+        "v": "-2.3",
+        "l": "bWAR",
+        "hi": false
+      },
+      {
+        "v": "104",
+        "l": "Runs",
+        "hi": false
+      },
+      {
+        "v": ".298",
+        "l": "AVG",
+        "hi": false
+      },
+      {
+        "v": ".895",
+        "l": "OPS",
+        "hi": false
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": false,
+    "context": "",
+    "c1ctxLabel": "",
+    "showC1Ctx": false,
+    "c1ctx": "",
+    "aclLabel": "Accolades",
+    "showAcl": false,
+    "tags": "",
+    "src": "Source: Baseball Reference",
+    "savedAt": "5/12/2026"
   }
 ]
