@@ -51,6 +51,57 @@
     "bdColor": "black"
   },
   {
+    "name": "Rich Aurilia",
+    "badge": "MLB · 2001",
+    "meta": "SS · San Francisco Giants · Age 29",
+    "hc": "#FF5910",
+    "bc": "#0a0a0f",
+    "textColor": "white",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "37",
+        "l": "HR",
+        "hi": false
+      },
+      {
+        "v": "206",
+        "l": "Hits",
+        "hi": false
+      },
+      {
+        "v": "114",
+        "l": "Runs",
+        "hi": false
+      },
+      {
+        "v": ".324",
+        "l": "AVG",
+        "hi": false
+      },
+      {
+        "v": ".941",
+        "l": "OPS",
+        "hi": false
+      },
+      {
+        "v": "6.7",
+        "l": "WAR",
+        "hi": false
+      }
+    ],
+    "context": "Only two shortstops in MLB history have hit 35+ HRs, 200+ hits, and scored 100+ runs in the same season: Alex Rodriguez and Rich Aurilia. Aurilia exploded for career highs in nearly every major hitting category in 2001, accumulating over a third of his career WAR in one season. He was one of three Giants that season to win Silver Sluggers, joining Jeff Kent and Barry Bonds, who overshadowed Aurilia just a tad with 73 HRs of his own.",
+    "tags": "All Star, Silver Slugger, ",
+    "src": "Source: Baseball Reference",
+    "savedAt": "5/5/2026",
+    "contextLabel": "Context",
+    "showContext": true,
+    "aclLabel": "Accolades",
+    "showAcl": true,
+    "hdColor": "white",
+    "bdColor": "white"
+  },
+  {
     "name": "Todd Hundley",
     "badge": "MLB · 1996",
     "meta": "C · New York Mets · 27",
@@ -102,6 +153,211 @@
     "bdColor": "white"
   },
   {
+    "name": "Alfonso Soriano",
+    "badge": "MLB · 2006",
+    "meta": "LF · Washington Nationals · Age 30",
+    "hc": "#E81828",
+    "bc": "#fffff0",
+    "hdColor": "white",
+    "bdColor": "black",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "46",
+        "l": "HRs",
+        "hi": false
+      },
+      {
+        "v": "41",
+        "l": "SBs",
+        "hi": false
+      },
+      {
+        "v": "41",
+        "l": "Doubles",
+        "hi": false
+      },
+      {
+        "v": ".277",
+        "l": "AVG",
+        "hi": false
+      },
+      {
+        "v": ".911",
+        "l": "OPS",
+        "hi": false
+      },
+      {
+        "v": "6.1",
+        "l": "WAR",
+        "hi": false
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": true,
+    "context": "",
+    "aclLabel": "Accolades",
+    "showAcl": true,
+    "tags": "All-Star, Silver Slugger",
+    "src": "Baseball Reference",
+    "savedAt": "5/9/2026"
+  },
+  {
+    "name": "Ripper Collins",
+    "badge": "MLB · 1934",
+    "meta": "1B · St. Louis Cardinals · Age 30",
+    "hc": "#E81828",
+    "bc": "#e8e8e0",
+    "hdColor": "white",
+    "bdColor": "black",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "35",
+        "l": "HRs",
+        "hi": false
+      },
+      {
+        "v": "128",
+        "l": "RBIs",
+        "hi": false
+      },
+      {
+        "v": "116",
+        "l": "Runs",
+        "hi": false
+      },
+      {
+        "v": "200",
+        "l": "Hits",
+        "hi": false
+      },
+      {
+        "v": ".333",
+        "l": "AVG",
+        "hi": false
+      },
+      {
+        "v": "1.008",
+        "l": "OPS",
+        "hi": false
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": true,
+    "context": "",
+    "aclLabel": "Accolades",
+    "showAcl": false,
+    "tags": "",
+    "src": "Baseball Reference",
+    "savedAt": "5/9/2026"
+  },
+  {
+    "name": "Bret Boone",
+    "badge": "MLB · 2001",
+    "meta": "2B · Seattle Mariners · Age 32",
+    "hc": "#005C5C",
+    "bc": "#002D62",
+    "hdColor": "white",
+    "bdColor": "white",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "37",
+        "l": "HRs",
+        "hi": false
+      },
+      {
+        "v": "141",
+        "l": "RBIs",
+        "hi": true
+      },
+      {
+        "v": "118",
+        "l": "Runs",
+        "hi": false
+      },
+      {
+        "v": "206",
+        "l": "Hits",
+        "hi": false
+      },
+      {
+        "v": ".950",
+        "l": "OPS",
+        "hi": false
+      },
+      {
+        "v": "8.8",
+        "l": "WAR",
+        "hi": false
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": true,
+    "context": "",
+    "aclLabel": "",
+    "showAcl": true,
+    "tags": "All-Star, Silver Slugger, AL MVP: 3RD",
+    "src": "Baseball Reference",
+    "savedAt": "5/11/2026",
+    "c1ctxLabel": "",
+    "c1ctx": "",
+    "showC1Ctx": false
+  },
+  {
+    "name": "Ice Box Chamberlin",
+    "badge": "MLB · 1889",
+    "meta": "SP · St. Louis Cardinals · 21",
+    "hc": "#E81828",
+    "bc": "#e8e8e0",
+    "hdColor": "white",
+    "bdColor": "black",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "32-15",
+        "l": "W-L",
+        "hi": false
+      },
+      {
+        "v": "2.97",
+        "l": "ERA",
+        "hi": false
+      },
+      {
+        "v": "202",
+        "l": "Ks",
+        "hi": false
+      },
+      {
+        "v": "1.283",
+        "l": "WHIP",
+        "hi": false
+      },
+      {
+        "v": "44",
+        "l": "Complete Games",
+        "hi": false
+      },
+      {
+        "v": "9.2",
+        "l": "WAR",
+        "hi": true
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": true,
+    "context": "",
+    "aclLabel": "",
+    "showAcl": false,
+    "tags": "",
+    "src": "Baseball Reference",
+    "savedAt": "5/11/2026",
+    "c1ctxLabel": "",
+    "c1ctx": ""
+  },
+  {
     "name": "Paul Lo Duca",
     "badge": "MLB · 2001",
     "meta": "C · Los Angeles Dodgers · Age 29",
@@ -145,61 +401,13 @@
     "contextLabel": "Why it matters",
     "showContext": true,
     "context": "",
-    "aclLabel": "Accolades",
-    "showAcl": false,
-    "tags": "NL MVP - 19th",
-    "src": "Baseball Reference",
-    "savedAt": "5/5/2026"
-  },
-  {
-    "name": "Rich Aurilia",
-    "badge": "MLB · 2001",
-    "meta": "SS · San Francisco Giants · Age 29",
-    "hc": "#FF5910",
-    "bc": "#0a0a0f",
-    "textColor": "white",
-    "statsLabel": "Season stats",
-    "stats": [
-      {
-        "v": "37",
-        "l": "HR",
-        "hi": false
-      },
-      {
-        "v": "206",
-        "l": "Hits",
-        "hi": false
-      },
-      {
-        "v": "114",
-        "l": "Runs",
-        "hi": false
-      },
-      {
-        "v": ".324",
-        "l": "AVG",
-        "hi": false
-      },
-      {
-        "v": ".941",
-        "l": "OPS",
-        "hi": false
-      },
-      {
-        "v": "6.7",
-        "l": "WAR",
-        "hi": false
-      }
-    ],
-    "context": "Only two shortstops in MLB history have hit 35+ HRs, 200+ hits, and scored 100+ runs in the same season: Alex Rodriguez and Rich Aurilia. Aurilia exploded for career highs in nearly every major hitting category in 2001, accumulating over a third of his career WAR in one season. He was one of three Giants that season to win Silver Sluggers, joining Jeff Kent and Barry Bonds, who overshadowed Aurilia just a tad with 73 HRs of his own.",
-    "tags": "All Star, Silver Slugger, ",
-    "src": "Source: Baseball Reference",
-    "savedAt": "5/5/2026",
-    "contextLabel": "Context",
-    "showContext": true,
-    "aclLabel": "Accolades",
+    "aclLabel": "",
     "showAcl": true,
-    "hdColor": "white",
-    "bdColor": "white"
+    "tags": "NL MVP: 19th",
+    "src": "Source: Baseball Reference",
+    "savedAt": "5/11/2026",
+    "c1ctxLabel": "",
+    "c1ctx": "",
+    "showC1Ctx": false
   }
 ]
