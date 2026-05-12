@@ -51,57 +51,6 @@
     "bdColor": "black"
   },
   {
-    "name": "Rich Aurilia",
-    "badge": "MLB · 2001",
-    "meta": "SS · San Francisco Giants · Age 29",
-    "hc": "#FF5910",
-    "bc": "#0a0a0f",
-    "textColor": "white",
-    "statsLabel": "Season stats",
-    "stats": [
-      {
-        "v": "37",
-        "l": "HR",
-        "hi": false
-      },
-      {
-        "v": "206",
-        "l": "Hits",
-        "hi": false
-      },
-      {
-        "v": "114",
-        "l": "Runs",
-        "hi": false
-      },
-      {
-        "v": ".324",
-        "l": "AVG",
-        "hi": false
-      },
-      {
-        "v": ".941",
-        "l": "OPS",
-        "hi": false
-      },
-      {
-        "v": "6.7",
-        "l": "WAR",
-        "hi": false
-      }
-    ],
-    "context": "Only two shortstops in MLB history have hit 35+ HRs, 200+ hits, and scored 100+ runs in the same season: Alex Rodriguez and Rich Aurilia. Aurilia exploded for career highs in nearly every major hitting category in 2001, accumulating over a third of his career WAR in one season. He was one of three Giants that season to win Silver Sluggers, joining Jeff Kent and Barry Bonds, who overshadowed Aurilia just a tad with 73 HRs of his own.",
-    "tags": "All Star, Silver Slugger, ",
-    "src": "Source: Baseball Reference",
-    "savedAt": "5/5/2026",
-    "contextLabel": "Context",
-    "showContext": true,
-    "aclLabel": "Accolades",
-    "showAcl": true,
-    "hdColor": "white",
-    "bdColor": "white"
-  },
-  {
     "name": "Todd Hundley",
     "badge": "MLB · 1996",
     "meta": "C · New York Mets · 27",
@@ -462,5 +411,58 @@
     "tags": "",
     "src": "Source: Baseball Reference",
     "savedAt": "5/12/2026"
+  },
+  {
+    "name": "Rich Aurilia",
+    "badge": "MLB · 2001",
+    "meta": "SS · San Francisco Giants · Age 29",
+    "hc": "#FF5910",
+    "bc": "#0a0a0f",
+    "textColor": "white",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "37",
+        "l": "HR",
+        "hi": false
+      },
+      {
+        "v": "206",
+        "l": "Hits",
+        "hi": true
+      },
+      {
+        "v": "114",
+        "l": "Runs",
+        "hi": false
+      },
+      {
+        "v": ".324",
+        "l": "AVG",
+        "hi": false
+      },
+      {
+        "v": ".941",
+        "l": "OPS",
+        "hi": false
+      },
+      {
+        "v": "6.7",
+        "l": "WAR",
+        "hi": false
+      }
+    ],
+    "context": "Only two shortstops in MLB history have hit 35+ HRs, 200+ hits, and scored 100+ runs in the same season: Alex Rodriguez and Rich Aurilia. Aurilia exploded for career highs in nearly every major hitting category in 2001, accumulating over a third of his career WAR in one season. He was one of three Giants that season to win Silver Sluggers, joining Jeff Kent and Barry Bonds, who overshadowed Aurilia just a tad with 73 HRs of his own.",
+    "tags": "All-Star, Silver Slugger, ",
+    "src": "Source: Baseball Reference",
+    "savedAt": "5/12/2026",
+    "contextLabel": "Context",
+    "showContext": true,
+    "aclLabel": "",
+    "showAcl": true,
+    "hdColor": "white",
+    "bdColor": "white",
+    "c1ctxLabel": "",
+    "c1ctx": ""
   }
 ]
