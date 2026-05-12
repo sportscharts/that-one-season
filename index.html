@@ -97,6 +97,11 @@ body{font-family:'DM Sans',sans-serif;background:var(--paper);color:var(--ink);m
 .stat-box{border-radius:8px;padding:10px 8px;text-align:center}
 .stat-val{font-family:'Bebas Neue',sans-serif;font-size:26px;line-height:1;letter-spacing:.02em}
 .stat-lbl{font-family:'DM Mono',monospace;font-size:11px;letter-spacing:.08em;text-transform:uppercase;margin-top:3px}
+.league-leader-badge{font-family:'DM Mono',monospace;font-size:7.5px;letter-spacing:.06em;text-transform:uppercase;margin-top:5px;color:var(--gold-light);font-weight:500;white-space:nowrap}
+.bd-black .league-leader-badge{color:#a06200}
+.bd-black .stat-box.hi .stat-val{color:#a06200!important}
+.bd-white .stat-box.hi{background:rgba(200,134,10,.15);border-color:rgba(200,134,10,.5)}
+.bd-black .stat-box.hi{background:rgba(200,134,10,.18);border-color:rgba(200,134,10,.6)}
 .card-rule{height:.5px;margin:0 22px}
 .ctx-area{padding:14px 22px 16px}
 .ctx-text{font-size:12px;line-height:1.7;font-weight:300}
@@ -209,7 +214,7 @@ function buildCard(d){
 
   // stats html
   const statsHtml=(d.stats||[]).filter(s=>s.v||s.l).map(s=>
-    `<div class="stat-box${s.hi?' hi':''}"><div class="stat-val">${s.v||'—'}</div><div class="stat-lbl">${s.l}</div></div>`
+    `<div class="stat-box${s.hi?' hi':''}"><div class="stat-val">${s.v||'—'}</div><div class="stat-lbl">${s.l}</div>${s.hi?'<div class="league-leader-badge">League Leader</div>':''}</div>`
   ).join('');
 
   // tags html
