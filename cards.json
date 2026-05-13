@@ -516,5 +516,57 @@
     "savedAt": "5/12/2026",
     "c1ctxLabel": "",
     "c1ctx": ""
+  },
+  {
+    "name": "Pervis Ellison",
+    "badge": "NBA · 1991-92",
+    "meta": "C · Washington Bullets · Age 24",
+    "hc": "#1D42BA",
+    "bc": "#BB0000",
+    "hdColor": "white",
+    "bdColor": "white",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "20.0",
+        "l": "PPG",
+        "hi": false
+      },
+      {
+        "v": "11.2",
+        "l": "RPG",
+        "hi": false
+      },
+      {
+        "v": "2.9",
+        "l": "APG",
+        "hi": false
+      },
+      {
+        "v": "2.7",
+        "l": "BPG",
+        "hi": false
+      },
+      {
+        "v": "0.9",
+        "l": "SPG",
+        "hi": false
+      },
+      {
+        "v": "19.9",
+        "l": "PER",
+        "hi": false
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": true,
+    "context": "",
+    "aclLabel": "",
+    "showAcl": true,
+    "tags": "Most Improved Player",
+    "src": "Source: Basketball Reference",
+    "savedAt": "5/12/2026",
+    "c1ctxLabel": "",
+    "c1ctx": ""
   }
 ]
