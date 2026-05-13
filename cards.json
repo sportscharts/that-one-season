@@ -464,5 +464,57 @@
     "bdColor": "white",
     "c1ctxLabel": "",
     "c1ctx": ""
+  },
+  {
+    "name": "Mark Melancon",
+    "badge": "MLB · 2013",
+    "meta": "RP · Pittsburgh Pirates · Age 28",
+    "hc": "#000000",
+    "bc": "#FFC72C",
+    "hdColor": "white",
+    "bdColor": "black",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "72",
+        "l": "Games",
+        "hi": false
+      },
+      {
+        "v": "1.39",
+        "l": "ERA",
+        "hi": false
+      },
+      {
+        "v": "0.958",
+        "l": "WHIP",
+        "hi": false
+      },
+      {
+        "v": "70-8",
+        "l": "K-BB",
+        "hi": false
+      },
+      {
+        "v": "1",
+        "l": "HR Allowed",
+        "hi": false
+      },
+      {
+        "v": "2.1",
+        "l": "bWAR",
+        "hi": false
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": true,
+    "context": "",
+    "aclLabel": "",
+    "showAcl": true,
+    "tags": "All-Star",
+    "src": "Baseball Reference",
+    "savedAt": "5/12/2026",
+    "c1ctxLabel": "",
+    "c1ctx": ""
   }
 ]
