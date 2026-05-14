@@ -568,5 +568,57 @@
     "savedAt": "5/12/2026",
     "c1ctxLabel": "",
     "c1ctx": ""
+  },
+  {
+    "name": "Pedro Alvarez",
+    "badge": "MLB · 2013",
+    "meta": "3B · Pittsburgh Pirates · Age 26",
+    "hc": "#EFB21E",
+    "bc": "#0a0a0f",
+    "hdColor": "black",
+    "bdColor": "white",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "36",
+        "l": "HR",
+        "hi": true
+      },
+      {
+        "v": "100",
+        "l": "RBI",
+        "hi": false
+      },
+      {
+        "v": "186",
+        "l": "SO",
+        "hi": true
+      },
+      {
+        "v": ".233",
+        "l": "AVG",
+        "hi": false
+      },
+      {
+        "v": ".770",
+        "l": "OPS",
+        "hi": false
+      },
+      {
+        "v": "3.3",
+        "l": "bWAR",
+        "hi": false
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": true,
+    "context": "",
+    "aclLabel": "",
+    "showAcl": true,
+    "tags": "All-Star, Silver Slugger",
+    "src": "Source: Baseball Reference",
+    "savedAt": "5/14/2026",
+    "c1ctxLabel": "",
+    "c1ctx": ""
   }
 ]
