@@ -668,9 +668,9 @@
     "c1ctxLabel": "",
     "showC1Ctx": false,
     "c1ctx": "",
-    "aclLabel": "Accolades",
-    "showAcl": false,
-    "tags": "",
+    "aclLabel": "",
+    "showAcl": true,
+    "tags": "NL MVP: 13th",
     "src": "Source: Baseball Reference",
     "savedAt": "5/15/2026"
   }
