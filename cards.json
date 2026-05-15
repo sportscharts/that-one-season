@@ -620,5 +620,58 @@
     "savedAt": "5/14/2026",
     "c1ctxLabel": "",
     "c1ctx": ""
+  },
+  {
+    "name": "Brian Dozier",
+    "badge": "MLB · 2016",
+    "meta": "2B · Minnesota Twins · Age 29",
+    "hc": "#C6011F",
+    "bc": "#002D72",
+    "hdColor": "white",
+    "bdColor": "white",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "42",
+        "l": "HR",
+        "hi": false
+      },
+      {
+        "v": "99",
+        "l": "RBI",
+        "hi": false
+      },
+      {
+        "v": "104",
+        "l": "Runs",
+        "hi": false
+      },
+      {
+        "v": "35",
+        "l": "2B",
+        "hi": false
+      },
+      {
+        "v": ".886",
+        "l": "OPS",
+        "hi": false
+      },
+      {
+        "v": "5.8",
+        "l": "bWAR",
+        "hi": false
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": false,
+    "context": "",
+    "c1ctxLabel": "",
+    "showC1Ctx": false,
+    "c1ctx": "",
+    "aclLabel": "Accolades",
+    "showAcl": false,
+    "tags": "",
+    "src": "Source: Baseball Reference",
+    "savedAt": "5/15/2026"
   }
 ]
