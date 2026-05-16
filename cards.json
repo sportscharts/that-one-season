@@ -255,58 +255,6 @@
     "showC1Ctx": false
   },
   {
-    "name": "Ice Box Chamberlin",
-    "badge": "MLB · 1889",
-    "meta": "SP · St. Louis Cardinals · 21",
-    "hc": "#E81828",
-    "bc": "#e8e8e0",
-    "hdColor": "white",
-    "bdColor": "black",
-    "statsLabel": "Season stats",
-    "stats": [
-      {
-        "v": "32-15",
-        "l": "W-L",
-        "hi": false
-      },
-      {
-        "v": "2.97",
-        "l": "ERA",
-        "hi": false
-      },
-      {
-        "v": "202",
-        "l": "Ks",
-        "hi": false
-      },
-      {
-        "v": "1.283",
-        "l": "WHIP",
-        "hi": false
-      },
-      {
-        "v": "44",
-        "l": "Complete Games",
-        "hi": false
-      },
-      {
-        "v": "9.2",
-        "l": "WAR",
-        "hi": true
-      }
-    ],
-    "contextLabel": "Why it matters",
-    "showContext": true,
-    "context": "",
-    "aclLabel": "",
-    "showAcl": false,
-    "tags": "",
-    "src": "Baseball Reference",
-    "savedAt": "5/11/2026",
-    "c1ctxLabel": "",
-    "c1ctx": ""
-  },
-  {
     "name": "Paul Lo Duca",
     "badge": "MLB · 2001",
     "meta": "C · Los Angeles Dodgers · Age 29",
@@ -673,5 +621,57 @@
     "tags": "NL MVP: 13th",
     "src": "Source: Baseball Reference",
     "savedAt": "5/15/2026"
+  },
+  {
+    "name": "Ice Box Chamberlin",
+    "badge": "MLB · 1889",
+    "meta": "SP · St. Louis Browns · Age 21",
+    "hc": "#2a1e0e",
+    "bc": "#e8e8e0",
+    "hdColor": "white",
+    "bdColor": "black",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "32-15",
+        "l": "W-L",
+        "hi": false
+      },
+      {
+        "v": "2.97",
+        "l": "ERA",
+        "hi": false
+      },
+      {
+        "v": "202",
+        "l": "Ks",
+        "hi": false
+      },
+      {
+        "v": "1.283",
+        "l": "WHIP",
+        "hi": false
+      },
+      {
+        "v": "44",
+        "l": "Complete Games",
+        "hi": false
+      },
+      {
+        "v": "9.2",
+        "l": "WAR",
+        "hi": true
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": true,
+    "context": "",
+    "aclLabel": "",
+    "showAcl": false,
+    "tags": "",
+    "src": "Baseball Reference",
+    "savedAt": "5/16/2026",
+    "c1ctxLabel": "",
+    "c1ctx": ""
   }
 ]
