@@ -673,5 +673,57 @@
     "savedAt": "5/16/2026",
     "c1ctxLabel": "",
     "c1ctx": ""
+  },
+  {
+    "name": "Alex Avila",
+    "badge": "MLB · 2011",
+    "meta": "C · Detroit Tigers · Age 24",
+    "hc": "#FD5A1E",
+    "bc": "#002D72",
+    "hdColor": "white",
+    "bdColor": "white",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": ".295",
+        "l": "AVG",
+        "hi": false
+      },
+      {
+        "v": ".389",
+        "l": "OBP",
+        "hi": false
+      },
+      {
+        "v": ".506",
+        "l": "SLG",
+        "hi": false
+      },
+      {
+        "v": "19",
+        "l": "HR",
+        "hi": false
+      },
+      {
+        "v": "82",
+        "l": "RBI",
+        "hi": false
+      },
+      {
+        "v": "5.1",
+        "l": "WAR",
+        "hi": false
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": true,
+    "context": "",
+    "aclLabel": "",
+    "showAcl": true,
+    "tags": "All-Star, Silver Slugger, AL MVP: 12th",
+    "src": "Baseball Reference",
+    "savedAt": "5/18/2026",
+    "c1ctxLabel": "",
+    "c1ctx": ""
   }
 ]
