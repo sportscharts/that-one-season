@@ -1,56 +1,5 @@
 [
   {
-    "name": "Billy Hamilton",
-    "badge": "MLB · 1894",
-    "meta": "OF · Philadelphia Phillies · Age 28",
-    "hc": "#E81828",
-    "bc": "#fffff0",
-    "textColor": "black",
-    "statsLabel": "Season stats",
-    "stats": [
-      {
-        "v": "198",
-        "l": "Runs",
-        "hi": false
-      },
-      {
-        "v": "225",
-        "l": "Hits",
-        "hi": false
-      },
-      {
-        "v": "100",
-        "l": "SBs",
-        "hi": false
-      },
-      {
-        "v": ".403",
-        "l": "AVG",
-        "hi": false
-      },
-      {
-        "v": ".521",
-        "l": "OBP",
-        "hi": false
-      },
-      {
-        "v": "8.2",
-        "l": "WAR",
-        "hi": false
-      }
-    ],
-    "context": "\"Sliding Billy\" Hamilton scored 198 runs (or 196 or 192, depending who you ask) in 132 games in 1894, an MLB record that still stands today. Babe Ruth got closest with 177 runs in 1921. Hamilton also hit .403 and stole 100 bases, including 7 in a single game, another MLB record. His Phillies finished third.",
-    "tags": "All Star",
-    "src": "Source: Baseball Reference",
-    "savedAt": "5/4/2026",
-    "contextLabel": "Context",
-    "showContext": true,
-    "aclLabel": "Accolades",
-    "showAcl": false,
-    "hdColor": "white",
-    "bdColor": "black"
-  },
-  {
     "name": "Todd Hundley",
     "badge": "MLB · 1996",
     "meta": "C · New York Mets · 27",
@@ -100,106 +49,6 @@
     "showAcl": true,
     "hdColor": "white",
     "bdColor": "white"
-  },
-  {
-    "name": "Alfonso Soriano",
-    "badge": "MLB · 2006",
-    "meta": "LF · Washington Nationals · Age 30",
-    "hc": "#E81828",
-    "bc": "#fffff0",
-    "hdColor": "white",
-    "bdColor": "black",
-    "statsLabel": "Season stats",
-    "stats": [
-      {
-        "v": "46",
-        "l": "HRs",
-        "hi": false
-      },
-      {
-        "v": "41",
-        "l": "SBs",
-        "hi": false
-      },
-      {
-        "v": "41",
-        "l": "Doubles",
-        "hi": false
-      },
-      {
-        "v": ".277",
-        "l": "AVG",
-        "hi": false
-      },
-      {
-        "v": ".911",
-        "l": "OPS",
-        "hi": false
-      },
-      {
-        "v": "6.1",
-        "l": "WAR",
-        "hi": false
-      }
-    ],
-    "contextLabel": "Why it matters",
-    "showContext": true,
-    "context": "",
-    "aclLabel": "Accolades",
-    "showAcl": true,
-    "tags": "All-Star, Silver Slugger",
-    "src": "Baseball Reference",
-    "savedAt": "5/9/2026"
-  },
-  {
-    "name": "Ripper Collins",
-    "badge": "MLB · 1934",
-    "meta": "1B · St. Louis Cardinals · Age 30",
-    "hc": "#E81828",
-    "bc": "#e8e8e0",
-    "hdColor": "white",
-    "bdColor": "black",
-    "statsLabel": "Season stats",
-    "stats": [
-      {
-        "v": "35",
-        "l": "HRs",
-        "hi": false
-      },
-      {
-        "v": "128",
-        "l": "RBIs",
-        "hi": false
-      },
-      {
-        "v": "116",
-        "l": "Runs",
-        "hi": false
-      },
-      {
-        "v": "200",
-        "l": "Hits",
-        "hi": false
-      },
-      {
-        "v": ".333",
-        "l": "AVG",
-        "hi": false
-      },
-      {
-        "v": "1.008",
-        "l": "OPS",
-        "hi": false
-      }
-    ],
-    "contextLabel": "Why it matters",
-    "showContext": true,
-    "context": "",
-    "aclLabel": "Accolades",
-    "showAcl": false,
-    "tags": "",
-    "src": "Baseball Reference",
-    "savedAt": "5/9/2026"
   },
   {
     "name": "Bret Boone",
@@ -723,6 +572,268 @@
     "tags": "All-Star, Silver Slugger, AL MVP: 12th",
     "src": "Source: Baseball Reference",
     "savedAt": "5/18/2026",
+    "c1ctxLabel": "",
+    "c1ctx": ""
+  },
+  {
+    "name": "Bonzi Wells",
+    "badge": "NBA · 2001-02",
+    "meta": "SG · Portland Trail Blazers · Age 25",
+    "hc": "#BB0000",
+    "bc": "#0a0a0f",
+    "hdColor": "white",
+    "bdColor": "white",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "17.0",
+        "l": "PPG",
+        "hi": false
+      },
+      {
+        "v": "6.0",
+        "l": "RPG",
+        "hi": false
+      },
+      {
+        "v": "2.8",
+        "l": "APG",
+        "hi": false
+      },
+      {
+        "v": "1.5",
+        "l": "SPG",
+        "hi": false
+      },
+      {
+        "v": "46.9",
+        "l": "FG%",
+        "hi": false
+      },
+      {
+        "v": "18.4",
+        "l": "PER",
+        "hi": false
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": true,
+    "context": "",
+    "aclLabel": "",
+    "showAcl": true,
+    "tags": "",
+    "src": "Source: Basketball Reference",
+    "savedAt": "5/18/2026",
+    "c1ctxLabel": "",
+    "c1ctx": ""
+  },
+  {
+    "name": "Ripper Collins",
+    "badge": "MLB · 1934",
+    "meta": "1B · St. Louis Cardinals · Age 30",
+    "hc": "#E81828",
+    "bc": "#e8e8e0",
+    "hdColor": "white",
+    "bdColor": "black",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "35",
+        "l": "HRs",
+        "hi": true
+      },
+      {
+        "v": "128",
+        "l": "RBIs",
+        "hi": false
+      },
+      {
+        "v": "116",
+        "l": "Runs",
+        "hi": false
+      },
+      {
+        "v": "200",
+        "l": "Hits",
+        "hi": false
+      },
+      {
+        "v": ".333",
+        "l": "AVG",
+        "hi": false
+      },
+      {
+        "v": "1.008",
+        "l": "OPS",
+        "hi": true
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": true,
+    "context": "",
+    "aclLabel": "",
+    "showAcl": true,
+    "tags": "NL MVP: 6th",
+    "src": "Baseball Reference",
+    "savedAt": "5/18/2026",
+    "c1ctxLabel": "",
+    "c1ctx": ""
+  },
+  {
+    "name": "Billy Hamilton",
+    "badge": "MLB · 1894",
+    "meta": "OF · Philadelphia Phillies · Age 28",
+    "hc": "#E81828",
+    "bc": "#fffff0",
+    "textColor": "black",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "198",
+        "l": "Runs",
+        "hi": true
+      },
+      {
+        "v": "225",
+        "l": "Hits",
+        "hi": false
+      },
+      {
+        "v": "100",
+        "l": "SBs",
+        "hi": true
+      },
+      {
+        "v": ".403",
+        "l": "AVG",
+        "hi": false
+      },
+      {
+        "v": ".521",
+        "l": "OBP",
+        "hi": true
+      },
+      {
+        "v": "8.2",
+        "l": "WAR",
+        "hi": true
+      }
+    ],
+    "context": "\"Sliding Billy\" Hamilton scored 198 runs (or 196 or 192, depending who you ask) in 132 games in 1894, an MLB record that still stands today. Babe Ruth got closest with 177 runs in 1921. Hamilton also hit .403 and stole 100 bases, including 7 in a single game, another MLB record. His Phillies finished third.",
+    "tags": "All Star",
+    "src": "Source: Baseball Reference",
+    "savedAt": "5/18/2026",
+    "contextLabel": "Context",
+    "showContext": true,
+    "aclLabel": "Accolades",
+    "showAcl": false,
+    "hdColor": "white",
+    "bdColor": "black",
+    "c1ctxLabel": "",
+    "c1ctx": ""
+  },
+  {
+    "name": "Tommy Harper",
+    "badge": "MLB · 1970",
+    "meta": "3B · Milwaukee Brewers · Age 29",
+    "hc": "#FDB927",
+    "bc": "#0C2340",
+    "hdColor": "black",
+    "bdColor": "white",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "31",
+        "l": "HR",
+        "hi": false
+      },
+      {
+        "v": "38",
+        "l": "SB",
+        "hi": false
+      },
+      {
+        "v": "35",
+        "l": "2B",
+        "hi": false
+      },
+      {
+        "v": ".296",
+        "l": "AVG",
+        "hi": false
+      },
+      {
+        "v": ".899",
+        "l": "OPS",
+        "hi": false
+      },
+      {
+        "v": "7.4",
+        "l": "bWAR",
+        "hi": false
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": false,
+    "context": "",
+    "c1ctxLabel": "",
+    "showC1Ctx": false,
+    "c1ctx": "",
+    "aclLabel": "",
+    "showAcl": true,
+    "tags": "All-Star, AL MVP: 13th",
+    "src": "Source: Baseball Reference",
+    "savedAt": "5/23/2026"
+  },
+  {
+    "name": "Alfonso Soriano",
+    "badge": "MLB · 2006",
+    "meta": "LF · Washington Nationals · Age 30",
+    "hc": "#E81828",
+    "bc": "#fffff0",
+    "hdColor": "white",
+    "bdColor": "black",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "46",
+        "l": "HRs",
+        "hi": false
+      },
+      {
+        "v": "41",
+        "l": "SBs",
+        "hi": false
+      },
+      {
+        "v": "41",
+        "l": "2B",
+        "hi": false
+      },
+      {
+        "v": ".277",
+        "l": "AVG",
+        "hi": false
+      },
+      {
+        "v": ".911",
+        "l": "OPS",
+        "hi": false
+      },
+      {
+        "v": "6.1",
+        "l": "WAR",
+        "hi": false
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": true,
+    "context": "",
+    "aclLabel": "Accolades",
+    "showAcl": true,
+    "tags": "All-Star, Silver Slugger",
+    "src": "Baseball Reference",
+    "savedAt": "5/23/2026",
     "c1ctxLabel": "",
     "c1ctx": ""
   }
