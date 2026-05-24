@@ -836,5 +836,58 @@
     "savedAt": "5/23/2026",
     "c1ctxLabel": "",
     "c1ctx": ""
+  },
+  {
+    "name": "Ellis Burks",
+    "badge": "MLB · 1996",
+    "meta": "LF · Colorado Rockies · Age 31",
+    "hc": "#C4CED4",
+    "bc": "#1e1b4b",
+    "hdColor": "black",
+    "bdColor": "white",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "40",
+        "l": "HR",
+        "hi": false
+      },
+      {
+        "v": "32",
+        "l": "SB",
+        "hi": false
+      },
+      {
+        "v": "128",
+        "l": "RBI",
+        "hi": false
+      },
+      {
+        "v": "142",
+        "l": "Runs",
+        "hi": true
+      },
+      {
+        "v": "211",
+        "l": "Hits",
+        "hi": false
+      },
+      {
+        "v": ".639",
+        "l": "SLG",
+        "hi": true
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": false,
+    "context": "",
+    "c1ctxLabel": "",
+    "showC1Ctx": false,
+    "c1ctx": "",
+    "aclLabel": "",
+    "showAcl": true,
+    "tags": "All-Star, Silver Slugger, NL MVP: 3rd",
+    "src": "Source: Baseball Reference",
+    "savedAt": "5/24/2026"
   }
 ]
