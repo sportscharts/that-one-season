@@ -889,5 +889,57 @@
     "tags": "All-Star, Silver Slugger, NL MVP: 3rd",
     "src": "Source: Baseball Reference",
     "savedAt": "5/24/2026"
+  },
+  {
+    "name": "Harvey Haddix",
+    "badge": "MLB · 1959",
+    "meta": "SP · Pittsburgh Pirates · Age 33",
+    "hc": "#EFB21E",
+    "bc": "#0a0a0f",
+    "hdColor": "black",
+    "bdColor": "white",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "12-12",
+        "l": "W-L",
+        "hi": false
+      },
+      {
+        "v": "3.13",
+        "l": "ERA",
+        "hi": false
+      },
+      {
+        "v": "149",
+        "l": "Ks",
+        "hi": false
+      },
+      {
+        "v": "1.061",
+        "l": "WHIP",
+        "hi": true
+      },
+      {
+        "v": "14",
+        "l": "Complete Games",
+        "hi": false
+      },
+      {
+        "v": "3.8",
+        "l": "bWAR",
+        "hi": false
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": true,
+    "context": "",
+    "aclLabel": "",
+    "showAcl": true,
+    "tags": "Gold Glove",
+    "src": "Source: Baseball Reference",
+    "savedAt": "5/26/2026",
+    "c1ctxLabel": "",
+    "c1ctx": ""
   }
 ]
