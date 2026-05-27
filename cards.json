@@ -628,58 +628,6 @@
     "c1ctx": ""
   },
   {
-    "name": "Ripper Collins",
-    "badge": "MLB · 1934",
-    "meta": "1B · St. Louis Cardinals · Age 30",
-    "hc": "#E81828",
-    "bc": "#e8e8e0",
-    "hdColor": "white",
-    "bdColor": "black",
-    "statsLabel": "Season stats",
-    "stats": [
-      {
-        "v": "35",
-        "l": "HRs",
-        "hi": true
-      },
-      {
-        "v": "128",
-        "l": "RBIs",
-        "hi": false
-      },
-      {
-        "v": "116",
-        "l": "Runs",
-        "hi": false
-      },
-      {
-        "v": "200",
-        "l": "Hits",
-        "hi": false
-      },
-      {
-        "v": ".333",
-        "l": "AVG",
-        "hi": false
-      },
-      {
-        "v": "1.008",
-        "l": "OPS",
-        "hi": true
-      }
-    ],
-    "contextLabel": "Why it matters",
-    "showContext": true,
-    "context": "",
-    "aclLabel": "",
-    "showAcl": true,
-    "tags": "NL MVP: 6th",
-    "src": "Baseball Reference",
-    "savedAt": "5/18/2026",
-    "c1ctxLabel": "",
-    "c1ctx": ""
-  },
-  {
     "name": "Billy Hamilton",
     "badge": "MLB · 1894",
     "meta": "OF · Philadelphia Phillies · Age 28",
@@ -939,6 +887,58 @@
     "tags": "Gold Glove",
     "src": "Source: Baseball Reference",
     "savedAt": "5/26/2026",
+    "c1ctxLabel": "",
+    "c1ctx": ""
+  },
+  {
+    "name": "Ripper Collins",
+    "badge": "MLB · 1934",
+    "meta": "1B · St. Louis Cardinals · Age 30",
+    "hc": "#E81828",
+    "bc": "#e8e8e0",
+    "hdColor": "white",
+    "bdColor": "black",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "35",
+        "l": "HRs",
+        "hi": true
+      },
+      {
+        "v": "128",
+        "l": "RBIs",
+        "hi": false
+      },
+      {
+        "v": "116",
+        "l": "Runs",
+        "hi": false
+      },
+      {
+        "v": "200",
+        "l": "Hits",
+        "hi": false
+      },
+      {
+        "v": ".333",
+        "l": "AVG",
+        "hi": false
+      },
+      {
+        "v": "1.008",
+        "l": "OPS",
+        "hi": true
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": true,
+    "context": "",
+    "aclLabel": "",
+    "showAcl": true,
+    "tags": "NL MVP: 6th",
+    "src": "Source: Baseball Reference",
+    "savedAt": "5/27/2026",
     "c1ctxLabel": "",
     "c1ctx": ""
   }
