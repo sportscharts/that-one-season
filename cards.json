@@ -941,5 +941,57 @@
     "savedAt": "5/27/2026",
     "c1ctxLabel": "",
     "c1ctx": ""
+  },
+  {
+    "name": "Jack Wilson",
+    "badge": "MLB · 2004",
+    "meta": "SS · Pittsburgh Pirates · Age 26",
+    "hc": "#EFB21E",
+    "bc": "#0a0a0f",
+    "hdColor": "black",
+    "bdColor": "white",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "201",
+        "l": "Hits",
+        "hi": false
+      },
+      {
+        "v": "41",
+        "l": "Doubles",
+        "hi": false
+      },
+      {
+        "v": "12",
+        "l": "Triples",
+        "hi": true
+      },
+      {
+        "v": ".308",
+        "l": "AVG",
+        "hi": false
+      },
+      {
+        "v": "82",
+        "l": "Runs",
+        "hi": false
+      },
+      {
+        "v": "4.8",
+        "l": "bWAR",
+        "hi": false
+      }
+    ],
+    "contextLabel": "Why it matters",
+    "showContext": true,
+    "context": "",
+    "aclLabel": "",
+    "showAcl": true,
+    "tags": "All-Star, Silver Slugger",
+    "src": "Source: Baseball Reference",
+    "savedAt": "5/30/2026",
+    "c1ctxLabel": "",
+    "c1ctx": ""
   }
 ]
