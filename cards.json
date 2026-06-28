@@ -993,5 +993,58 @@
     "savedAt": "5/30/2026",
     "c1ctxLabel": "",
     "c1ctx": ""
+  },
+  {
+    "name": "Al Rosen",
+    "badge": "MLB · 1953",
+    "meta": "3B · Cleveland Indians · Age 29",
+    "hc": "#E81828",
+    "bc": "#0c2240",
+    "textColor": "black",
+    "statsLabel": "Season stats",
+    "stats": [
+      {
+        "v": "43",
+        "l": "HRs",
+        "hi": true
+      },
+      {
+        "v": "145",
+        "l": "RBIs",
+        "hi": true
+      },
+      {
+        "v": "115",
+        "l": "Runs",
+        "hi": true
+      },
+      {
+        "v": "201",
+        "l": "Hits",
+        "hi": false
+      },
+      {
+        "v": "1.034",
+        "l": "OPS",
+        "hi": true
+      },
+      {
+        "v": "10.1",
+        "l": "WAR",
+        "hi": true
+      }
+    ],
+    "context": "",
+    "tags": "MVP, All-Star",
+    "src": "Source: Baseball Reference",
+    "savedAt": "6/27/2026",
+    "contextLabel": "Context",
+    "showContext": false,
+    "aclLabel": "",
+    "showAcl": true,
+    "hdColor": "white",
+    "bdColor": "white",
+    "c1ctxLabel": "",
+    "c1ctx": ""
   }
 ]
